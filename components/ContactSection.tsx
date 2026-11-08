@@ -148,7 +148,7 @@ export default function ContactSection() {
                   <ArrowLeft className="w-3.5 h-3.5" />
                 </a>
               ) : (
-                <span className="w-full inline-flex items-center justify-center px-4 py-2.5 bg-white/5 text-[#D8C8C3]/70 text-xs rounded-[14px] cursor-default border border-white/10">
+                <span dir='ltr' className="w-full inline-flex items-center justify-center px-4 py-2.5 bg-white/5 text-[#D8C8C3]/70 text-xs rounded-[14px] cursor-default border border-white/10">
                   به‌زودی
                 </span>
               )}
