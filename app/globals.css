@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@theme {
+  --color-burgundy: #761D32;
+  --color-burgundy-deep: #501324;
+  --color-burgundy-light: #8E253E;
+  --color-ivory: #F7F3ED;
+  --color-ivory-warm: #FAF7F2;
+  --color-near-black: #191919;
+  --color-muted-rose: #D8C8C3;
+  --color-muted-rose-soft: #EFE8E5;
+  --color-secondary-text: #756B68;
+
+  --font-serif: 'Playfair Display', Didot, 'Bodoni MT', Georgia, serif;
+  --font-persian: 'Vazirmatn', 'Shabnam', 'Tahoma', system-ui, -apple-system, sans-serif;
+
+  --radius-main-card: 22px;
+  --radius-secondary-card: 18px;
+  --radius-container: 20px;
+  --radius-btn: 14px;
+  --radius-input: 13px;
+  --radius-pill: 11px;
+}
+
+:root {
+  --font-body: 'Vazirmatn', 'Playfair Display', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F3ED;
+  color: #191919;
+  font-family: var(--font-body);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #F7F3ED;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Luxury editorial subtle texture */
+.editorial-paper {
+  background-color: #F7F3ED;
+  background-image: radial-gradient(#D8C8C3 0.6px, transparent 0.6px);
+  background-size: 24px 24px;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #761D32;
+  color: #F7F3ED;
+}
+
+/* Focus outline for accessibility */
+*:focus-visible {
+  outline: 2px solid #761D32;
+  outline-offset: 2px;
+}

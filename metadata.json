@@ -1,0 +1,6 @@
+{
+  "name": "YOUNA - Boutique Digital Business Card",
+  "description": "Premium digital business card for YOUNA women's fashion boutique, featuring editorial typography, RTL support, store information, and direct contact actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
