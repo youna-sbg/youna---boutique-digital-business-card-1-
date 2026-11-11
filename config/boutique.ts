@@ -89,7 +89,7 @@ export const boutiqueConfig: BoutiqueConfig = {
     customMapsUrl: "https://maps.app.goo.gl/oG9cd5buyFkapPv16",
   },
   hours: {
-    scheduleFa: "صبح از ساعت 10 صبح الی 13 و بعد از ظهر از ساعت 4 الی 9:30 شب",
+    scheduleFa: "صبح از ساعت 9:30 صبح الی 13 و بعد از ظهر از ساعت 4 الی 9:30 شب",
     holidayNotesFa: "جمعه‌ها: 4 الی 9:30 شب",
   },
   share: {
